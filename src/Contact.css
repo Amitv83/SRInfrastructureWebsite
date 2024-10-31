@@ -1,0 +1,132 @@
+Reset styling
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+
+  /* Body styling with gradient */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f2e9d2, #f2e9d2);
+  }
+
+  /* Contact card styling */
+  .contact {
+    width: 90%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 135px; /* Added margin for space above footer */
+  }
+
+  /* Heading styling */
+  .contact h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* Contact information section */
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+  /* Sub-headings for sections */
+  .contact-info h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+
+  /* Text content and links */
+  .contact-info p,
+  .contact-info a {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    text-decoration: none;
+  }
+
+  /* Link styling */
+
+  .contact-info a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .contact-info a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:0;
+    top:17px;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: #f57c20;
+    transition: width 0.75s ease;
+  }
+  
+  .contact-info a:hover::after {
+    width: 100%;
+  }
+  .contact-info a {
+    color: #f57c20;
+    font-weight: bold;
+  }
+
+  /* Divider line between sections */
+  .divider {
+    height: 1px;
+    background-color: #dddddd;
+    margin: 15px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Button styling */
+  .contact button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #faa543;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .contact button:hover {
+    background-color: #f57c20;
+  }
+
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .contact {
+      padding: 20px;
+    }
+  }
+  .iframe{
+    width: 100%; height: 100%; border: 3;
+  }
+  .mapdiv{
+    height: 50vh;
+  }
