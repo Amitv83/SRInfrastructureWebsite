@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav{
+  background-color: rgb(255, 237, 207);
+}
+.footer {
+  background-image: url("./assets/footer1.png");
+  background-size: cover; /* Make the image cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  height:75vh; /* Set height to 100% of the viewport */
+  @media (min-width:320px) {
+      height: 100vh;
+  }
+  @media (min-width:640px) {
+      height: 95vh;
+  }
+  @media (min-width:768px) {
+      height: 80vh;
+  }
+  width: screen; /* Optional: set width to 100% of viewport width if needed */
+}
+/* Button styling */
+a {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+/* 
+a:hover {
+  background-color: #f57c20;
+  color: rgb(206, 246, 206);
+} */
+
+.home{
+  background-color: #faa543;
+}
+.about{
+  background-color: #faa543;
+}
+.contactMenu{
+  background-color: #faa543;
+}
+.nav a:hover{
+  background-color: #f57c20;
+  color: rgb(218, 255, 218);
+  transition: background-color 0.5s;
+}
+.footer a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom:0;
+  top:23px;
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  background-color: #f57c20;
+  transition: width 0.75s ease;
+}
+
+.footer a:hover::after {
+  width: 100%;
+}
