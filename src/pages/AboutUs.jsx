@@ -57,7 +57,7 @@ const AboutPage = () => {
             <div className="mb-4">
                 <h2 className="text-xl font-bold text-gray-800">Manager</h2>
                 <p className="text-gray-600 font-semibold">Abhishek Kumar Vishwakarma</p>
-                <p className="text-sm text-gray-500">Civil Engineer - Diploma, Architecture, B.Tech</p>
+                <p className="text-sm text-gray-500">Civil Engineer - Diploma, Architecture, B.Tech.</p>
             </div>
 
             {/* <!-- Proprietor's Details --> */}
@@ -70,7 +70,6 @@ const AboutPage = () => {
 
 
             </div>
-            hello
         </>
     );
 };

@@ -1,10 +1,6 @@
 import React from "react";
-import "../App.css";
-import MobileRamji from "../assets/mobile Ram.png";
 import Ramji from "../assets/Ram.png";
-import MobileTeam from "../assets/mobileTeam.png";
 import Team from "../assets/Team.png";
-import MobileSite from "../assets/MobileSite.jpg";
 import Site from "../assets/Construction Site.png";
 import Integration from "../assets/Integration.png";
 import Scalability from "../assets/Scalability.png";
@@ -20,7 +16,7 @@ import { Carousel } from "@material-tailwind/react";
 const HomePage = () => {
   return (
     <>
-      <Carousel className="rounded-xl">
+      <Carousel className="rounded-xl mt-20">
         <img
           src={Ramji}
           alt="image 1"

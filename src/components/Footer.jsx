@@ -9,12 +9,12 @@ const Footer = () => {
       <div className="max-w-9xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         {/* <!-- Responsive Grid Layout --> */}
         <div
-          className="grid grid-cols-1 md:grid-cols-2 gap-7 justify-center text-center items-center object-center"
+          className="grid grid-cols-1 md:grid-cols-2 gap-7 justify-center text-center object-center lg:mt-7"
         >
           {/* <!-- Column 1: About Us --> */}
 
           <div
-            className="md:pt-7 text-lg font-semibold text-white flex flex-col items-center justify-center"
+            className="text-lg font-semibold text-white flex flex-col items-center lg:mb-10"
           >
             <div className="bg-white mb-5 w-56 flex justify-center items-center">
               <img src={Logo} alt="ram" className="pr-3" />
@@ -36,14 +36,14 @@ const Footer = () => {
 
           {/* <!-- Column 2: Quick Links --> */}
           <div
-            className="grid grid-cols-1 lg:grid-cols-2 gap-7 justify-center text-center items-center object-center"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-0 text-center justify-center lg:mt"
           >
             <div>
               <h4 className="text-lg font-semibold text-white mb-4">QUICK LINKS</h4>
               <ul className="space-y-2">
                 <li>
                   <a href="/" className="text-gray-400 hover:text-white"
-                    >Go to Top</a>
+                    >Home</a>
                 </li>
                 <li>
                   <a
@@ -63,7 +63,7 @@ const Footer = () => {
 
             {/* <!-- Column 3: Contact Us --> */}
             <div>
-              <h4 className="text-lg font-semibold text-white mb-4">
+              <h4 className="text-lg font-semibold text-white">
                 CONTACT INFO
               </h4>
               <ul className="space-y-2">
@@ -74,10 +74,11 @@ const Footer = () => {
                     >Phone: 7754980147</a>
                 </li>
                 <li>
+                  <p>Email:</p>
                   <a
-                    to="mailto:info@example.com"
+                    to="mailto:srinfrastructureayodhya@gmail.com"
                     className="text-gray-400 hover:text-white"
-                    >Email: srinfrastructureayodhya@gmail.com</a>
+                    >srinfrastructureayodhya@gmail.com</a>
                 </li>
                 <li className="text-gray-400">Address: Flat No/name-239 Lallan Singh, Amaniganj road,<br />
                   Awas Vikas Colony, Ayodhya,<br />
