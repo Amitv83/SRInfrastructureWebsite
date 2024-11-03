@@ -16,7 +16,7 @@ import { Carousel } from "@material-tailwind/react";
 const HomePage = () => {
   return (
     <>
-      <Carousel className="rounded-xl mt-20">
+      <Carousel className="mt-20">
         <img
           src={Ramji}
           alt="image 1"
@@ -30,11 +30,11 @@ const HomePage = () => {
         <img
           src={Site}
           alt="image 3"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-contain"
         />
       </Carousel>
 
-      <div className="flex flex-col justify-center items-center mb-16">
+      <div className="flex flex-col justify-center items-center mt-16 mb-16">
         <div className="w-9/12">
           <div className="flex flex-col justify-center text-center items-center">
             <h1 className="font-bold text-2xl lg:text-3xl w-4/5">
@@ -49,7 +49,7 @@ const HomePage = () => {
             </h3>
           </div>
           <div className="mt-3 text-justify">
-            <div className="flex flex-col text-gray-500">
+            <div className="flex flex-col text-gray-700">
               We are committed to surpassing client expectations while upholding
               the highest standards of quality. Our team's expertise drives our
               success, enabling us to provide creative and efficient
@@ -67,7 +67,7 @@ const HomePage = () => {
         </div>
         <div className="w-9/12">
           <h1 className="font-bold text-2xl mt-3">INNOVATION AT EVERY TURN</h1>
-          <div className="mt-3 text-justify text-gray-500">
+          <div className="mt-3 text-justify text-gray-700">
             Sri Ram Infrastructure is a full-service building contractor and a
             respected name in the industry, with the team, experience, and
             resources to execute projects of any size with excellence. With over
@@ -80,7 +80,7 @@ const HomePage = () => {
           <h1 className="font-bold text-2xl mt-3">
             OUR TEAM ARE CENTRAL TO OUR VISION
           </h1>
-          <div className="mt-3 text-justify text-gray-500">
+          <div className="mt-3 text-justify text-gray-700">
             At Sri Ram Infrastructure, we offer competitive compensation along
             with a range of additional benefits that make our company a highly
             desirable place to work, both for experienced professionals and
@@ -139,7 +139,7 @@ const HomePage = () => {
               </h6>
               <h6 class="text-lg font-bold my-1">Scalability</h6>
               <p class="my-2">
-                Adapt and consistently deliver as sold to our customers – From
+                Adapt and consistently deliver as sold to our customers - From
                 concept right through to execution, ranging from greenfield mega
                 projects to brownfield sustaining capital agreements.
               </p>
@@ -177,7 +177,7 @@ const HomePage = () => {
               </h6>
               <h6 class="text-lg font-bold my-1">Execution</h6>
               <p class="my-2">
-                One Team Approach – We control the critical path by
+                One Team Approach - We control the critical path by
                 Self-Performing all the major aspects of EPC/CM planning and
                 execution, either through integration with contractors or on a
                 standalone basis.

@@ -7,6 +7,7 @@ const ContactPage = () => {
   return (
     <>
       {/* <!-- Contact Section --> */}
+      <div class="contactbody">
       <div class="flex justify-center">
         <section class="contact ">
           <h2>Contact Us</h2>
@@ -30,8 +31,12 @@ const ContactPage = () => {
           <div class="contact-info">
             <h3>Make A Call</h3>
             <p>
-              <a href="tel:+7754980147">+91 7754980147</a>
+              <a href="tel:+919616293856">+91 9616293856</a>
             </p>
+            <p>
+              <a href="tel:+917754980147">+91 7754980147</a>
+            </p>  
+            
           </div>
 
           {/* <!-- Divider line --> */}
@@ -41,16 +46,16 @@ const ContactPage = () => {
           <div class="contact-info">
             <h3>Send A Mail</h3>
             <p>
-              <a href="srinfrastructureayodhya@gmail.com">
+              <a href="mailto:srinfrastructureayodhya@gmail.com">
                 srinfrastructureayodhya@gmail.com
               </a>
             </p>
           </div>
 
           {/* <!-- Contact button --> */}
-          <button onclick="window.location.href='mailto:info@altosengineers.com'">
-            Get in Touch
-          </button>
+          <a href="mailto:srinfrastructureayodhya@gmail.com">
+            <button>Get in Touch</button>
+          </a>
         </section>
       </div>
       <div class="flex w-screen h-3/4 justify-center">
@@ -68,6 +73,7 @@ const ContactPage = () => {
             </div>
           </div>
         </section>
+      </div>
       </div>
     </>
   );

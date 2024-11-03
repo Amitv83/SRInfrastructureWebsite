@@ -19,7 +19,7 @@ export default function NavBar() {
   return (
     <Disclosure as="nav" className="flex-no-wrap fixed top-0 z-10 flex w-full items-center justify-between bg-[#ffedcf] shadow-2xl shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-between py-1">
       <div className="logo h-14 pb-20">
-        <img src={Logo} alt="ram" className="w-72 my-2 px-3" />
+        <img src={Logo} alt="Logo" className="w-72 my-2 px-3" />
       </div>
       <div className="sm:flex sm:justify-end ">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"> 

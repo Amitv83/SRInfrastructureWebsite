@@ -17,7 +17,7 @@ const Footer = () => {
             className="text-lg font-semibold text-white flex flex-col items-center lg:mb-10"
           >
             <div className="bg-white mb-5 w-56 flex justify-center items-center">
-              <img src={Logo} alt="ram" className="pr-3" />
+              <img src={Logo} alt="Logo" className="pr-3" />
             </div>
             <div className="text-gray-400 flex justify-center text-center">
               <p className="relative text-lg font-semibold text-gray-400 max-w-lg">
@@ -66,17 +66,25 @@ const Footer = () => {
               <h4 className="text-lg font-semibold text-white">
                 CONTACT INFO
               </h4>
-              <ul className="space-y-2">
+              <ul className="space-y-3 mt-3">
+                <ul className="space-y-1">
                 <li>
                   <a
-                    to="tel:+1234567890"
+                    href="tel:+919616293856"
+                    className="text-gray-400 hover:text-white"
+                    >Phone: 9616293856</a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+917754980147"
                     className="text-gray-400 hover:text-white"
                     >Phone: 7754980147</a>
                 </li>
+                </ul>
                 <li>
                   <p>Email:</p>
                   <a
-                    to="mailto:srinfrastructureayodhya@gmail.com"
+                    href="mailto:srinfrastructureayodhya@gmail.com"
                     className="text-gray-400 hover:text-white"
                     >srinfrastructureayodhya@gmail.com</a>
                 </li>

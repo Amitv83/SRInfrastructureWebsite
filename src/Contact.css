@@ -13,6 +13,9 @@ Reset styling
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: linear-gradient(135deg, #fffaef, #fffaec);
+  }
+  .contactbody{
     background: linear-gradient(135deg, #f2e9d2, #f2e9d2);
   }
 
