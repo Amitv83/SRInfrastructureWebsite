@@ -58,7 +58,7 @@ const AboutPage = () => {
             {/* <!-- Proprietor's Details --> */}
             <div className="mb-4">
                 <h2 className="text-xl font-bold text-gray-800">Proprietor</h2>
-                <p className="text-gray-700 font-semibold">Rohit Singh</p>
+                <p className="text-gray-700 font-semibold">Amardeep Vishwakarma</p>
                 <p className="text-sm text-gray-600">Civil Engineer - Diploma</p>
             </div>
             
