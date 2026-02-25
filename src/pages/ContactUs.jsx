@@ -30,12 +30,12 @@ const ContactPage = () => {
           {/* <!-- Make A Call Section --> */}
           <div class="contact-info">
             <h3>Make A Call</h3>
+             <p>
+              <a href="tel:+917754980147">+91 7754980147</a>
+            </p> 
             <p>
               <a href="tel:+919956809910">+91 9956809910</a>
             </p>
-            <p>
-              <a href="tel:+917754980147">+91 7754980147</a>
-            </p>  
             
           </div>
 

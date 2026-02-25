@@ -55,6 +55,13 @@ const AboutPage = () => {
             <div className="p-4 bg-gray-100 rounded-lg shadow-xl w-full text-center mx-auto mt-5">
             
 
+            {/* <!-- Manager's Details --> */}
+            <div>
+                <h2 className="text-xl font-bold text-gray-800">Manager</h2>
+                <p className="text-gray-700 font-semibold">Abhishek Kumar Vishwakarma</p>
+                <p className="text-sm text-gray-600">Civil Engineer - Diploma, Architecture, B.Tech.</p>
+            </div>
+            
             {/* <!-- Proprietor's Details --> */}
             <div className="mb-4">
                 <h2 className="text-xl font-bold text-gray-800">Proprietor</h2>
@@ -62,12 +69,6 @@ const AboutPage = () => {
                 <p className="text-sm text-gray-600">Civil Engineer - Diploma</p>
             </div>
             
-            {/* <!-- Manager's Details --> */}
-            <div>
-                <h2 className="text-xl font-bold text-gray-800">Manager</h2>
-                <p className="text-gray-700 font-semibold">Abhishek Kumar Vishwakarma</p>
-                <p className="text-sm text-gray-600">Civil Engineer - Diploma, Architecture, B.Tech.</p>
-            </div>
             </div>
             </div>
         </>

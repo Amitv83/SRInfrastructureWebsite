@@ -68,17 +68,17 @@ const Footer = () => {
               </h4>
               <ul className="space-y-3 mt-3">
                 <ul className="space-y-1">
+                  <li>
+                  <a
+                    href="tel:+917754980147"
+                    className="text-gray-400 hover:text-white"
+                    >Phone: 7754980147</a>
+                </li>
                 <li>
                   <a
                     href="tel:+919956809910"
                     className="text-gray-400 hover:text-white"
                     >Phone: 9956809910</a>
-                </li>
-                <li>
-                  <a
-                    href="tel:+917754980147"
-                    className="text-gray-400 hover:text-white"
-                    >Phone: 7754980147</a>
                 </li>
                 </ul>
                 <li>
